@@ -1,0 +1,51 @@
+[
+  {
+    "tool_name": "get_user_profile",
+    "args": {
+      "user_id": "12345"
+    }
+  },
+  {
+    "tool_name": "transfer_funds",
+    "args": {
+      "source_account": "ACC001",
+      "destination_account": "ACC002",
+      "amount": 500
+    }
+  },
+  {
+    "tool_name": "transfer_funds",
+    "args": {
+      "source_account": "ACC003",
+      "destination_account": "ACC004",
+      "amount": 1500,
+      "currency": "USD"
+    }
+  },
+  {
+    "tool_name": "blacklist_tool_example",
+    "args": {
+      "param1": "value1"
+    }
+  },
+  {
+    "tool_name": "create_order",
+    "args": {
+      "items": ["itemA", "itemB"],
+      "customer_id": "CUST999",
+      "account_number": "1234567890123456"
+    }
+  },
+  {
+    "tool_name": "system_exec",
+    "args": {
+      "command": "rm -rf /"
+    }
+  },
+  {
+    "tool_name": "experimental_feature",
+    "args": {
+      "setting": "alpha_mode"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "agent-security-guard",
+  "version": "1.0.0",
+  "description": "A CLI tool for validating agent tool calls against security policies.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "agentic-ai",
+    "security",
+    "fraud-prevention",
+    "tool-calling"
+  ],
+  "author": "AutoScout",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
